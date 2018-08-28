@@ -1,6 +1,13 @@
+%FN_TEST given a struct of options, test a model (see CNN_test.m on how to use it)
+%
+% Copyright (c) 2016-2017, Christoph Baur <c.baur@tum.de>. All rights reserved.
+%
+% This work is licensed under the Creative Commons Attribution-NonCommercial 
+% 4.0 International License. To view a copy of this license, visit 
+% http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to 
+% Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
 function [ Eval, embeddings, embeddings_labels ] = fn_test( options )
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
 
 % Init handles
 if options.debug || options.verbose

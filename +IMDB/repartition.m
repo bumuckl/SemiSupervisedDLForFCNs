@@ -10,7 +10,12 @@ function imdb = repartition( imdb, partitions, retain_classes )
 %   partitions = a 3 element vector where each entry specifies the
 %   percentage of the partition with respect to the total datasize, e.g. [0.6 0.2 0.2]
 %
-% @Author: Christoph Baur
+% Copyright (c) 2016-2017, Christoph Baur <c.baur@tum.de>. All rights reserved.
+%
+% This work is licensed under the Creative Commons Attribution-NonCommercial 
+% 4.0 International License. To view a copy of this license, visit 
+% http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to 
+% Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
     % Gain access to all methods of the package
     import IMDB.*

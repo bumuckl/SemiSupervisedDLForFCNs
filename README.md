@@ -1,6 +1,7 @@
 ## Semi-supervised deep learning for fully convolutional networks<br><i>Official implementation of the MICCAI 2017 paper</i>
 
-**Christoph Baur** (CAMP, TU Munich), **Shadi Albarqouni** (CAMP, TU Munich), **Nassir Navab** (CAMP, TU Munich and JHU, Baltimore)
+**Christoph Baur** (CAMP, TU Munich), **Shadi Albarqouni** (CAMP, TU Munich), **Nassir Navab** (CAMP, TU Munich and JHU, Baltimore)<br>
+<i>C. Baur and S. Albarqouni contributed equally towards this work</i>
 
 **Abstract:**<br>
 *Deep learning usually requires large amounts of labeled training data, but annotating data is costly and tedious. The framework of semi-supervised learning provides the means to use both labeled data and arbitrary amounts of unlabeled data for training. Recently, semi-supervised deep learning has been intensively studied for standard CNN architectures. However, Fully Convolutional Networks (FCNs) set the state-of-the-art for many image segmentation tasks. To the best of our knowledge, there is no existing semi-supervised learning method for such FCNs yet. We lift the concept of auxiliary manifold embedding for semi-supervised learning to FCNs with the help of Random Feature Embedding. In our experiments on the challenging task of MS Lesion Segmentation, we leverage the proposed framework for the purpose of domain adaptation and report substantial improvements over the baseline model.*

@@ -1,9 +1,14 @@
-% Do some kind of grid search for models based on EmbeddingLoss
-% (Supervised!)
-% Comments marked with #1 mean uncomment this to embed 10-class numbers (this method uses EmbeddingLoss)
-% Comments marked with #2 mean uncomment this to embed prime numbers (this method uses SemiSupervisedEmbeddingLoss without unlabeled data)
+% >the script used to train the models for the Proof-of-Concept experiments reported in the paper. 
+% We utilize the ground-truth-labels here to generate a perfect prior. Finetune an existing Network
+% using both labeled and "unlabeled" data. Do it in a "grid search" way with different params to 
+% get a comparison of different models
 %
-% Author: Christoph Baur
+% Copyright (c) 2016-2017, Christoph Baur <c.baur@tum.de>. All rights reserved.
+%
+% This work is licensed under the Creative Commons Attribution-NonCommercial 
+% 4.0 International License. To view a copy of this license, visit 
+% http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to 
+% Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 %clear;
 close all;
