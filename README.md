@@ -5,6 +5,8 @@
 **Abstract:**<br>
 *Deep learning usually requires large amounts of labeled training data, but annotating data is costly and tedious. The framework of semi-supervised learning provides the means to use both labeled data and arbitrary amounts of unlabeled data for training. Recently, semi-supervised deep learning has been intensively studied for standard CNN architectures. However, Fully Convolutional Networks (FCNs) set the state-of-the-art for many image segmentation tasks. To the best of our knowledge, there is no existing semi-supervised learning method for such FCNs yet. We lift the concept of auxiliary manifold embedding for semi-supervised learning to FCNs with the help of Random Feature Embedding. In our experiments on the challenging task of MS Lesion Segmentation, we leverage the proposed framework for the purpose of domain adaptation and report substantial improvements over the baseline model.*
 
+C. Baur and S. Albarqouni contributed equally towards this work.
+
 ## Resources
 * [Paper (MICCAI 2017)](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_36)
 * [Paper (arXiv)](https://arxiv.org/abs/1703.06000)
